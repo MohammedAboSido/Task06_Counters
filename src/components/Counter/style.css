@@ -1,0 +1,36 @@
+.counterWrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.counterValue {
+  font-size: 2rem;
+  margin-right: 1rem;
+  padding: 0.5rem 0.5rem;
+  background-color: rgb(228, 235, 235);
+  border-radius: 6px;
+  text-align: center;
+  min-width: 5rem;
+
+}
+
+.counterInc,
+.counterDec {
+  padding: 0.5rem 0.5rem;
+  width: 4rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 6px;
+}
+.counterDec {
+  background-color: tomato;
+}
+.counterInc {
+  background-color: yellowgreen;
+}
