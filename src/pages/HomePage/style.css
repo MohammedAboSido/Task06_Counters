@@ -1,0 +1,329 @@
+.section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+  background-image: url("../../assets/images/hero-image.png");
+  position: relative;
+  background-size: cover;
+}
+
+.section1::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  background-image: linear-gradient(
+    to top,
+    #000000,
+    rgba(0, 0, 0, 0.1),
+    transparent
+  );
+}
+
+.section1Details {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  color: white;
+}
+
+.section1Title {
+  font-size: 3rem;
+  max-width: 25rem;
+  text-align: center;
+  color: #fffccc;
+}
+
+.section1Description {
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+.section2 {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-image: url("../../assets/images/sections-image.png");
+  background-repeat: no-repeat;
+  background-size: 105%;
+  background-position: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-attachment: fixed;
+}
+.section3 {
+  text-align: center;
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../../assets/images/sections-image.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50%;
+  background-size: 105%;
+  gap: 3rem;
+  padding: 4rem 0;
+}
+.section3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0b0e11e5;
+}
+
+.section3Cards {
+  width: 95%;
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+  z-index: 10;
+}
+.section3Heading {
+  z-index: 10;
+}
+
+.section3Heading > div {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.section3Heading > div > :first-child {
+  font-size: 2.5rem;
+}
+
+.section4 {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../../assets/images/sections-image.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50%;
+  background-size: 105%;
+  gap: 6rem;
+  padding: 4rem 0;
+}
+
+.section4Menus {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.section5 {
+  text-align: center;
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../../assets/images/sections-image.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50%;
+  background-size: 105%;
+  gap: 3rem;
+  overflow: hidden;
+}
+
+.section5::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0b0e11cb;
+}
+
+.section5Imgs {
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  position: relative;
+  transform: rotate(10deg);
+}
+
+.section5Imgs > :nth-child(2) {
+  position: absolute;
+  left: 6rem;
+  transform: rotate(-5deg);
+}
+.section5Imgs > :nth-child(1) {
+  transform: rotate(-10deg);
+}
+.section5Details {
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.section6 {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../../assets/images/sections-image.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50%;
+  background-size: 105%;
+  padding: 4rem 0;
+  gap: 6rem;
+}
+.section6 > div {
+  z-index: 10;
+}
+.section6::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0b0e11cb;
+}
+
+.section7 {
+  text-align: center;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../../assets/images/sections-image.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50%;
+  background-size: 105%;
+  gap: 3rem;
+}
+
+.section8 {
+  text-align: center;
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../../assets/images/sections-image.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50%;
+  background-size: 105%;
+  gap: 3rem;
+  padding: 7rem 0;
+}
+
+.section8Blogs {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.section9 {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-image: url("../../assets/images/sections-image.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50%;
+  background-size: 105%;
+  padding: 4rem 4rem;
+  gap: 6rem;
+  color: white;
+}
+
+.section9::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0b0e11cb;
+}
+.section9 > div {
+  z-index: 10;
+  width: 25%;
+}
+.section9One {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.section9Logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.section9One > p {
+  text-align: start;
+  max-width: 80%;
+}
+.section9Icons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.section9Two {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.section9Two > ul {
+  display: flex;
+  text-align: start;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.section9Three {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.section9Three > div {
+  display: flex;
+  text-align: start;
+  flex-direction: column;
+  gap: 1rem;
+}
